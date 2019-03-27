@@ -1,0 +1,64 @@
+{
+  "author": "David Piper <david.piper@mailfence.com>",
+  "bugs": {
+    "url": "https://github.com/dbpiper/module-starter-kit/issues"
+  },
+  "dependencies": {},
+  "description": "A module which wraps common gulp functions and functionality in order to allow execution of a specified function if a task encounters an error. ",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/register": "^7.4.0",
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@types/gulp": "^4.0.6",
+    "@types/jest": "^24.0.11",
+    "babel-eslint": "^10.0.1",
+    "commitlint": "^7.5.2",
+    "eslint": "^5.15.3",
+    "gulp": "^4.0.0",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "terminal-spawn": "^2.0.3",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "tslint-config-euclid": "^1.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.4000",
+    "typescript-tslint-plugin": "^0.3.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "homepage": "https://github.com/dbpiper/module-starter-kit#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run verify",
+      "pre-push": "npm run verify"
+    }
+  },
+  "keywords": [
+    "starter-kit",
+    "modules",
+    "npm",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "gulp-errorable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbpiper/module-starter-kit.git"
+  },
+  "scripts": {
+    "build": "npx gulp build",
+    "lint": "npx gulp lint",
+    "prepublishOnly": "npm run build",
+    "test": "npx gulp test",
+    "verify": "npx gulp verify"
+  },
+  "version": "1.0.0-beta.1"
+}

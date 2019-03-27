@@ -1,0 +1,17 @@
+os: linux
+dist: xenial
+language: node_js
+# can't set this to production, because we don't want to add all of the
+# testing dependencies
+env: NODE_ENV=development
+node_js:
+  - "lts/*"
+cache:
+  # cache for ci, since it deletes node_modules
+  directories:
+    - "$HOME/.npm"
+install:
+  - npm ci
+  - npm link
+  - npm link gulp-errorable
+script: npm run verifyCi

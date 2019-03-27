@@ -1,0 +1,40 @@
+{
+  "javascript.suggest.autoImports": false,
+  "jest.enableInlineErrorMessages": true,
+  "jest.rootPath": ".",
+  "jest.showCoverageOnLoad": true,
+  "json.schemas": [{
+      "fileMatch": [
+        "/.babelrc"
+      ],
+      "url": "http://json.schemastore.org/babelrc"
+    },
+    {
+      "fileMatch": [
+        "/.tslint.json"
+      ],
+      "url": "http://json.schemastore.org/tslint"
+    },
+    {
+      "fileMatch": [
+        "/.cypress.json"
+      ],
+      "url": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json"
+    },
+    {
+      "fileMatch": [
+        "tsconfig.json"
+      ],
+      "url": "http://json.schemastore.org/tsconfig"
+    }
+  ],
+  "prettier.requireConfig": true,
+  "prettier.tslintIntegration": true,
+  "typescript.extension.sortImports.enableJavascript": true,
+  "typescript.suggest.autoImports": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "yaml.schemas": {
+    "http://json.schemastore.org/prettierrc": "/.prettierrc.yml"
+  },
+  "yaml.validate": true
+}

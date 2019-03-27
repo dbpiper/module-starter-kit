@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-euclid",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-angle-bracket-type-assertion": true,
+    "no-unsafe-any": true,
+    "no-any": {
+      "severity": "warning"
+    }
+  }
+}
