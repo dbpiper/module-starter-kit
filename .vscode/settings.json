@@ -36,5 +36,6 @@
   "yaml.schemas": {
     "http://json.schemastore.org/prettierrc": "/.prettierrc.yml"
   },
-  "yaml.validate": true
+  "yaml.validate": true,
+  "eslint.enable": false
 }
