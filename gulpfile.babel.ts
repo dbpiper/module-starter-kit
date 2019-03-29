@@ -57,4 +57,6 @@ const test = series(build, _runTest);
 
 const verify = series(_gitStatusHumanReview, build, lint, test);
 
-export { lint, build, test, verify };
+const verifyCi = verify;
+
+export { lint, build, test, verify, verifyCi};

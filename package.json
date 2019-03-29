@@ -58,7 +58,8 @@
     "lint": "npx gulp lint",
     "prepublishOnly": "npm run build",
     "test": "npx gulp test",
-    "verify": "npx gulp verify"
+    "verify": "npx gulp verify",
+    "verifyCi": "npx gulp verifyCi"
   },
   "version": "1.0.0-beta.1"
 }
