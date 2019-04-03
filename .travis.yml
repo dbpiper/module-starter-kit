@@ -12,6 +12,4 @@ cache:
     - "$HOME/.npm"
 install:
   - npm ci
-  - npm link
-  - npm link gulp-errorable
 script: npm run verifyCi
