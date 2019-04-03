@@ -1,7 +1,7 @@
 # module-starter-kit
 
 [![Build Status](https://travis-ci.com/dbpiper/module-starter-kit.svg?branch=master)](https://travis-ci.com/dbpiper/module-starter-kit)
-[![npm version](http://img.shields.io/npm/v/module-starter-kit.svg?style=flat)](https://npmjs.org/package/module-starter-kit 'View this project on npm')
+[![npm version](http://img.shields.io/npm/v/@dbpiper/module-starter-kit.svg?style=flat)](https://npmjs.org/package/@dbpiper/module-starter-kit 'View this project on npm')
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 A personal starter kit that I used to bootstrap a new npm module, I seem to
