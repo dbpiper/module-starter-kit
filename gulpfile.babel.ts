@@ -12,7 +12,7 @@ import terminalSpawn from 'terminal-spawn';
 const _runTest = () => terminalSpawn('npx jest --passWithNoTests').promise;
 
 const _buildJs = () =>
-  terminalSpawn(`npx babel src --out-dir lib --extensions ".ts"`).promise;
+  terminalSpawn(`npx babel src --out-dir lib --extensions ".ts" --delete-dir-on-start`).promise;
 
 const _buildTypes = () => terminalSpawn('npx tsc').promise;
 
